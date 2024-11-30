@@ -1,5 +1,5 @@
 .hero-capa{
-    background: url('../ifzn_sem_fronteiras_ofc.svg') no-repeat rgba(36, 36, 36, 0.65);
+    background: url('../ifzn_sem_fronteiras_ofc.svg') no-repeat;
     background-size: cover;
     height: 40.25rem;
 }
@@ -10,4 +10,40 @@
 
 .card-time{
     border-left: 8px solid var(--california-500);
+}
+
+.bg-img-secundary{
+    background: url(../bg.svg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.sec-login{
+    width: 52.75rem;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 992px) {
+    .sec-login{
+        width: auto;
+        padding-inline: 12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .sec-login .info-login p{
+        font-size: 1rem;
+    }
+
+    .sec-login .info-login h2{
+        font-size: 2rem !important;
+    }
+
+    .btn-entrar-suap{
+        width: 100%;
+        padding-inline: 0;
+    }
 }

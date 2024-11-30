@@ -42,33 +42,33 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-    line-height: 130%;
+    line-height: 130% !important;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 4rem !important;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 2.5rem !important;
 }
 
 h3{
-    font-size: 32px;
+    font-size: 2rem !important;
 }
 
 h4{
-    font-size: 28px;
+    font-size: 1.75rem !important;
 }
 
 h5{
-    font-size: 24px;
+    font-size: 1.5rem !important;
 }
 
 h6{
-    font-size: 20px;
+    font-size: 1.25rem !important;
 }
 
 p{
@@ -76,8 +76,8 @@ p{
 }
 
 h1, h2, h3, h4, h5, h6, p, figure, li, ul{
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important; 
 }
 
 a, li{
@@ -133,6 +133,10 @@ a, li{
 
 .pb-144{
     padding-bottom: 9rem;
+}
+
+.px-100{
+    padding-inline: 6.25rem;
 }
 
 .py-144{

@@ -14,7 +14,7 @@
   
 <script>
   import Header from '../components/Header.vue'
-  import Hero from '../components/HeroSala.vue'
+  import Hero from '../components/SalaHero.vue'
   import Main from '../components/SalaMain.vue'
   import Footer from '../components/Footer.vue'
   export default {

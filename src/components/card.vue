@@ -15,7 +15,19 @@
 </template>
 
 <style scoped>
+    .card-sala{
+        border: 3px solid var(--california-500);
+        border-radius: .875rem;
+        padding-inline: 0px;
+    }
 
+    .info-bg{
+    background-color: rgba(252, 158, 9, 0.37);
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 94%;
+}
 </style>
 
 <script>
