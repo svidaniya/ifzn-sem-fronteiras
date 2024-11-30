@@ -1,12 +1,3 @@
-<script setup>
-import { ref } from 'vue'
-
-defineProps({
-  msg: String,
-})
-
-const count = ref(0)
-</script>
 
 <template>
     <div class="card-sala bg-flower-900 col-4 d-flex flex-column row-gap-4 align-items-center pb-4">
@@ -24,4 +15,11 @@ const count = ref(0)
 </template>
 
 <style scoped>
+
 </style>
+
+<script>
+export default {
+  name: 'Card'
+}
+</script>

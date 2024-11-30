@@ -1,12 +1,3 @@
-<script setup>
-import { ref } from 'vue'
-
-defineProps({
-  msg: String,
-})
-
-const count = ref(0)
-</script>
 
 <template>
     <footer class="footer-scaperoom bg-flower-900">
@@ -38,3 +29,9 @@ const count = ref(0)
 
 <style scoped>
 </style>
+
+<script>
+    export default {
+        name: 'Footer'
+    }
+</script>

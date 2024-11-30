@@ -1,7 +1,13 @@
-import { createApp } from 'vue'
-import Home from './home.vue'
-import Sala from './sala.vue'
+
+import { createApp } from 'vue';
+import router from './router';
+import App from './App.vue';
 
 
-createApp(Home).mount('#app')
-createApp(Sala).mount('#sala')
+
+const app = createApp(App);
+
+app.use(router);
+
+app.mount('#app');
+

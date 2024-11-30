@@ -1,12 +1,4 @@
-<script setup>
-import { ref } from 'vue'
 
-defineProps({
-  msg: String,
-})
-
-const count = ref(0)
-</script>
 
 <template>
   <header class="d-flex justify-content-between align-items-center container mx-auto">
@@ -23,3 +15,12 @@ const count = ref(0)
 
 <style scoped>
 </style>
+
+
+<script>
+
+export default {
+  name: 'Header'
+}
+
+</script>
