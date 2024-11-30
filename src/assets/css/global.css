@@ -1,8 +1,118 @@
+:root{
+    --white: #ffffff;
+    --seashell-50: #f8f8f8;
+    --seashell-100: #f1f1f1;
+    --seashell-200: #dcdcdc;
+    --seashell-300: ##bdbdbd;
+    --seashell-700: #525252;
+    --seashell-800: #464646;
+    --seashell-900: #3d3d3d;
+    --seashell-950: #292929;
+    --seashell-1000: #242424;
+    
+
+    --california-300: #ffd348;
+    --california-400: #ffbf1e;
+    --california-500: #fc9e09;
+    --california-600: #df7400;
+    
+    --flower-700: #7a26ca;
+    --flower-800: #6724a5;
+    --flower-900: #4b1b75;
+    --flower-950: #390962;
+}
+
+.color-white{color: var(--white);} .color-seashell-50{color: var(--seashell-50);} .color-seashell-100{color: var(--seashell-100);} .color-seashell-200{color: var(--seashell-200);} .color-seashell-300{color: var(--seashell-300);} .color-seashell-700{color: var(--seashell-700);} .color-seashell-800{color: var(--seashell-800);} .color-seashell-900{color: var(--seashell-900);} .color-seashell-950{color: var(--seashell-950);}
+
+.color-california-300{color: var(--california-300);} .color-california-400{color: var(--california-400);} .color-california-500{color: var(--california-500);} .color-california-600{color: var(--california-600);}
+
+.color-flower-700{color: var(--flower-700);} .color-flower-800{color: var(--flower-800);} .color-flower-900{color: var(--flower-900);} .color-flower-950{color: var(--flower-950);}
+
+.bg-seashell-1000{background-color: var(--seashell-1000);} .bg-flower-950{background-color: var(--flower-950);} .bg-flower-900{background-color: var(--flower-900);}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    
     font-family: "Lato", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
     line-height: 130%;
-    font-family: ;
+    font-family: "Raleway", sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 32px;
+}
+
+h4{
+    font-size: 28px;
+}
+
+h5{
+    font-size: 24px;
+}
+
+h6{
+    font-size: 20px;
+}
+
+p{
+    line-height: 150%;
+}
+
+h1, h2, h3, h4, h5, h6, p, figure, li, ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.fs-extra-large{
+    font-size: 1.25rem;
+}
+
+.fs-large{
+    font-size: 1.125rem;
+}
+
+.fs-small{
+    font-size: .875rem;
+}
+
+
+.ribeye{
+    font-family: "Ribeye", sans-serif;
+}
+
+.w-max{
+    width: max-content;
+}
+
+.h-max{
+    height: max-content;
+}
+
+.py-2\.5{
+    padding-block: .75rem;
+}
+
+.px-2\.5{
+    padding-inline: .75rem;
 }
