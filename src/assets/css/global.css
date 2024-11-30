@@ -28,7 +28,7 @@
 
 .color-flower-700{color: var(--flower-700);} .color-flower-800{color: var(--flower-800);} .color-flower-900{color: var(--flower-900);} .color-flower-950{color: var(--flower-950);}
 
-.bg-seashell-1000{background-color: var(--seashell-1000);} .bg-flower-950{background-color: var(--flower-950);} .bg-flower-900{background-color: var(--flower-900);}
+.bg-seashell-1000{background-color: var(--seashell-1000);} .bg-flower-950{background-color: var(--flower-950);} .bg-flower-900{background-color: var(--flower-900);} .bg-california-500{background-color: var(--california-500);}
 
 
 *{
@@ -44,6 +44,7 @@ body{
 h1, h2, h3, h4, h5, h6{
     line-height: 130%;
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
 }
 
 h1{
@@ -101,6 +102,10 @@ a{
     font-family: "Ribeye", sans-serif;
 }
 
+.raleway{
+    font-family: "Raleway", sans-serif;
+}
+
 .w-max{
     width: max-content;
 }
@@ -115,4 +120,9 @@ a{
 
 .px-2\.5{
     padding-inline: .75rem;
+}
+
+.hover-btn:hover{
+    filter: blur(0.10);
+    box-shadow: 1px 1px;
 }
