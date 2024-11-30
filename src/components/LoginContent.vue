@@ -12,7 +12,7 @@
           <p class="raleway fs-extra-large">Ao entrar com o Suap você poderá reservar um horário para jogar em uma de nossas salas do Scape Room!</p>
         </div>
         <a class="btn-entrar btn-entrar-suap ribeye color-california-500 fs-extra-large py-2.5 px-100 w-max" href="">Entrar com o suap</a>
-        <a class="color-white text-decoration-underline fw-light w-max" href="">Voltar para a tela inicial</a>
+        <a class="color-white text-decoration-underline fw-light w-max" href="/">Voltar para a tela inicial</a>
 
       </section>
 

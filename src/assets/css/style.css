@@ -15,11 +15,43 @@
 .bg-img-secundary{
     background: url(../bg.svg) no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 6.25rem;
 }
 
-.sec-login{
+.sec-login, .sec-inscrever{
     width: 52.75rem;
+}
+
+.circle{
+    width: 21px;
+    height: 21px;
+    background-color: var(--white);
+}
+
+.element-active{
+    background-color: var(--california-500) !important;
+
+}
+
+.line{
+    height: 2px;
+    background-color: var(--white);
+}
+
+.dates>.btns:nth-child(odd){
+    border: 3px solid var(--california-500);
+    border-radius: .875rem;
+}
+
+.dates>.btns:nth-child(even){
+    border: 3px solid var(--flower-900);
+    border-radius: .875rem;
+}
+
+.btn-secundary{
+    border: 3px solid var(--flower-900);
+    border-radius: .875rem;
 }
 
 .carousel-indicators li {
@@ -35,9 +67,9 @@
 /* MEDIA QUERY */
 
 @media screen and (max-width: 992px) {
-    .sec-login{
+    .sec-login, .sec-inscrever{
         width: auto;
-        padding-inline: 12px;
+        padding-inline: 1.5rem !important;
     }
     
     .content-hero > section, .o-que-scaperoom > *, .content-main-sala{
@@ -72,8 +104,17 @@
         font-size: 2rem !important;
     }
 
+    .sec-inscrever .dates{
+        flex-direction: column;
+    }
+    
+    .sec-inscrever .content-rules{
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
     .btn-entrar-suap{
         width: 100%;
-        padding-inline: 0;
+        padding-inline: 0 !important;
     }
 }

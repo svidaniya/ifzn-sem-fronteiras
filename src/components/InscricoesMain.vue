@@ -12,7 +12,7 @@
           <CardInscricao/>
         </div>
 
-        <a href="" class="btn-reservar bg-california-500 raleway fw-bold rounded-5 w-max extra-large color-white px-4 py-2 hover-btn align-self-end">Inscrever-se <i class="ps-2 bi bi-arrow-right"></i></a>
+        <a href="/inscrever" class="btn-reservar bg-california-500 raleway fw-bold rounded-5 w-max extra-large color-white px-4 py-2 hover-btn align-self-end">Inscrever-se <i class="ps-2 bi bi-arrow-right"></i></a>
       </section>
     </main>
   </template>

@@ -80,10 +80,17 @@ h1, h2, h3, h4, h5, h6, p, figure, li, ul{
     padding: 0 !important; 
 }
 
-a, li{
+a{
     text-decoration: none;
-    list-style: none;
     display: inline-block;
+}
+
+li{
+    list-style: none;
+}
+
+.list-disc{
+    list-style: disc;
 }
 
 .fs-extra-large{

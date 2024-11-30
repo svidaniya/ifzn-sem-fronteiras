@@ -4,6 +4,7 @@ import Home from '../views/Home.vue';
 import Sala from '../views/Sala.vue'; 
 import Login from '../views/Login.vue'; 
 import Inscricoes from '../views/Inscricoes.vue'; 
+import Inscrever from '../views/Inscrever.vue'; 
 
 const routes = [
     {
@@ -26,6 +27,11 @@ const routes = [
         path: '/inscricoes',
         name: 'Inscricoes',
         component: Inscricoes,
+    },
+    {
+        path: '/inscrever',
+        name: 'Inscrever',
+        component: Inscrever,
     },
 ]
 
