@@ -8,9 +8,9 @@
 
 .btn-reservar{
     border: 1px solid var(--california-500);
-}
+}   
 
-.card-sala{
+.card-sala, .btn-entrar{
     border: 3px solid var(--california-500);
     border-radius: .875rem;
 }

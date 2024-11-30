@@ -1,0 +1,9 @@
+.hero-capa{
+    background: url('../ifzn_sem_fronteiras_ofc.svg') no-repeat rgba(36, 36, 36, 0.65);
+    background-size: cover;
+    height: 40.25rem;
+}
+
+.content-hero{
+    height: calc(100% - 78px);
+}
