@@ -6,11 +6,3 @@
     border: 3px solid var(--california-500);
     border-radius: .875rem;
 }
-
-/* FOOTER STYLES: */
-.copyright-footer{
-    border-top: 1px solid var(--california-500);
-}
-.footer-scaperoom{
-    height: 100vh;
-}

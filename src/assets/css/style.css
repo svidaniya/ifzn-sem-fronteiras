@@ -22,6 +22,15 @@
     width: 52.75rem;
 }
 
+.carousel-indicators li {
+    background-color: var(--california-500) !important;
+}
+
+.bottom-stroke{
+    border-bottom: solid 1px var(--california-500);
+}
+
+
 
 /* MEDIA QUERY */
 
@@ -29,6 +38,27 @@
     .sec-login{
         width: auto;
         padding-inline: 12px;
+    }
+    
+    .content-hero > section, .o-que-scaperoom > *, .content-main-sala{
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .o-que-scaperoom{
+        flex-direction: column;
+    }
+    
+
+    .o-que-scaperoom .content-scaperoom > h2, .o-que-scaperoom .content-scaperoom > p{
+        padding-bottom: 1rem !important;
+    }
+
+    
+
+    .cards-info-sala{
+        flex-direction: column;
+        row-gap: 3rem;
     }
 }
 

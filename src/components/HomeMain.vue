@@ -12,7 +12,7 @@
       </div>
     </section>
     <section class="w-100 pb-144 pe-3">
-      <h2 class="pb-60 fw-black color-california-500">Conheça nossas salas</h2>
+      <h2 class="pb-60 fw-black color-california-500 pb-5">Conheça nossas salas</h2>
       
       <!-- Carrossel -->
       <div id="carousel_cards" class="carousel slide" data-bs-ride="carousel">
