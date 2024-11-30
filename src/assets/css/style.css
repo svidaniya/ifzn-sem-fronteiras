@@ -7,3 +7,7 @@
 .content-hero{
     height: calc(100% - 78px);
 }
+
+.card-time{
+    border-left: 8px solid var(--california-500);
+}

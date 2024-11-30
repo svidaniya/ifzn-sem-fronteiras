@@ -80,8 +80,9 @@ h1, h2, h3, h4, h5, h6, p, figure, li, ul{
     padding: 0;
 }
 
-a{
+a, li{
     text-decoration: none;
+    list-style: none;
     display: inline-block;
 }
 
@@ -95,6 +96,10 @@ a{
 
 .fs-small{
     font-size: .875rem;
+}
+
+.fw-black{
+    font-weight: 900;
 }
 
 
@@ -121,6 +126,19 @@ a{
 .px-2\.5{
     padding-inline: .75rem;
 }
+
+.pb-60{
+    padding-bottom: 3.75rem;
+}
+
+.pb-144{
+    padding-bottom: 9rem;
+}
+
+.py-144{
+    padding-block: 9rem;
+}
+
 
 .hover-btn:hover{
     filter: blur(0.10);

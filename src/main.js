@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import Home from './home.vue'
+import Sala from './sala.vue'
 
 
-createApp(App).mount('#app')
+createApp(Home).mount('#app')
+createApp(Sala).mount('#sala')
